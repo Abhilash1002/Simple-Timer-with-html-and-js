@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    padding: 0px;
+    margin: 0px;
+}
+.outerbox{
+    position: relative;
+    top: 170px;
+    left: 500px;
+    background-color: aquamarine;
+    height: 400px;
+    width: 500px;
+    display: flex;
+    justify-content: flex-start;
+    flex-flow: column wrap;
+}
+.inp{
+    background-color: black;
+    color: yellow;
+    text-align-last: right;
+    font-size: xx-large;
+}
+.clicker{
+    height: 30px;
+    width: 40%;
+    align-self: center;
+    font: bolder;
+    background-color: yellow;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.seconds{
+    /* background-color: bisque; */
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 80px;
+    color:blue;
+    align-self: center;
+    position: relative;
+    top:100px
+}
