@@ -28,7 +28,7 @@ function countdown(seconds){
         for(let i=seconds;i>=0;i--){
             if(i == 0){
                 setTimeout(function(){ 
-                    output.innerHTML = "YOU ALL ARE BREATHTAKING!!";
+                    output.innerHTML = "TIME'S UP!!";
                     setRandomColor(document.body.style);
                     // setRandomColor(outerbox.style);
                  },(seconds - i)*1000); 
